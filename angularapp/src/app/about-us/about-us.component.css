@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.background {
+    background-image: url('bg1.jpg');
+    /* Adjust the path based on your project structure */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content {
+    padding: 20px;
+    color: #fff;
+    /* Adjust text color for better visibility on the background */
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adjust background color and opacity as needed */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+/* Add more styles as needed */

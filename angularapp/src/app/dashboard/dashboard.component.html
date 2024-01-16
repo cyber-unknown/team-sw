@@ -1,0 +1,23 @@
+<div class="navbar">
+    <div class="logo-container">
+        <img src="your-logo.png" alt="Logo" class="logo">
+    </div>
+    <ul class="nav-links">
+        <li><a routerLink="/dashboard">Dashboard</a></li>
+        <li><a routerLink="/services">Services</a></li>
+        <li><a routerLink="/help-support">Help & Support</a></li>
+        <li><a routerLink="/about-us">About Us</a></li>
+    </ul>
+    <button class="profile-button" (click)="toggleProfile()">Profile</button>
+</div>
+
+<div class="background">
+    <div class="content">
+        <h1>Welcome to </h1>
+        <div *ngIf="showProfile" class="profile">
+            <!-- Placeholder for profile content -->
+            <p>This is a placeholder for the profile content.</p>
+        </div>
+        <!-- Your Angular content will be loaded here -->
+    </div>
+</div>
